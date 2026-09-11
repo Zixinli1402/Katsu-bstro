@@ -3,3 +3,4 @@
 /* Preserve Katsu Bistro's original identity: logo and original site palette. */
 :root{--ink:#401c10;--cream:#f5ebdc;--paper:#fbf4e9;--red:#cc3366;--yellow:#e4b84a;--green:#72513d;--line:#dfd0bd}
 .brand{display:flex;align-items:center}.brand img{display:block;width:145px;height:auto;max-height:42px;object-fit:contain;object-position:left center}.brand-mark{display:none}
+.menu-card{overflow:hidden;padding:0 0 20px}.menu-card>div{padding-left:21px;padding-right:21px}.dish-image{display:block;width:100%;height:125px;object-fit:cover;margin-bottom:18px;background:#ead9c4}.menu-card h3{margin-top:0}.menu-card .price{padding-top:0}
