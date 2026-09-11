@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Katsu Bistro menu — crispy katsu, Japanese comfort food and easy bites in New Zealand." />
+  <title>Menu | Katsu Bistro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Katsu Bistro home"><span class="brand-mark">K</span><span>Katsu<br><em>Bistro</em></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span>☰</span></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="#menu">Our menu</a><a href="#story">Our story</a><a href="#visit">Find us</a>
+      <a class="nav-order" href="https://katsubistro.co.nz/order-online/" target="_blank" rel="noreferrer">Order online ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Made fresh in Aotearoa</p>
+        <h1>Crispy on the outside.<br><i>Comforting</i> inside.</h1>
+        <p class="hero-intro">Japanese-inspired comfort food, made for sharing, savouring and leaving with a smile.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>↓</span></a><a class="text-link" href="https://katsubistro.co.nz/order-online/" target="_blank" rel="noreferrer">Order for pickup <span>↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a crispy katsu meal"><div class="sun"></div><div class="plate"><span class="rice"></span><span class="katsu"></span><span class="greens"></span><span class="sauce"></span></div><span class="stamp">KATSU<br><small>一番</small></span></div>
+    </section>
+
+    <section id="menu" class="menu-section">
+      <div class="section-heading"><div><p class="eyebrow">The good stuff</p><h2>Our menu</h2></div><p class="heading-note">Everything is prepared to order.<br>Take your time — there’s plenty to discover.</p></div>
+      <div class="filters" role="tablist" aria-label="Menu categories"><button class="filter active" data-category="small">Small plates</button><button class="filter" data-category="sets">Set meals</button><button class="filter" data-category="extras">Extras</button><button class="filter" data-category="desserts">Desserts</button></div>
+      <div id="menu-grid" class="menu-grid" aria-live="polite"></div>
+      <div class="menu-note"><span>✦</span><p>V = Vegetarian &nbsp;·&nbsp; GF = Gluten free<br>Ask our team about allergens and dietary requirements.</p></div>
+    </section>
+
+    <section id="story" class="story-section"><div class="story-image"><span>Since<br><b>2018</b></span></div><div class="story-copy"><p class="eyebrow">A little bit about us</p><h2>Good food should<br><i>feel like a hug.</i></h2><p>We bring together the crunch of a perfect katsu, the warmth of Japanese home cooking and a little Kiwi hospitality. Come hungry, leave happy.</p><a class="text-link" href="https://katsubistro.co.nz/about-us/" target="_blank" rel="noreferrer">Read our story <span>↗</span></a></div></section>
+
+    <section id="visit" class="visit-section"><div><p class="eyebrow">Come say hello</p><h2>Your table is<br><i>waiting.</i></h2></div><div class="visit-details"><p>Pop in for a quick bite, settle in for a set meal, or take the good stuff home.</p><div class="details-row"><strong>Hours</strong><span>Mon–Sun<br>11:30am – 9:00pm</span></div><div class="details-row"><strong>Find us</strong><span>New Zealand<br><a href="https://katsubistro.co.nz/location/" target="_blank" rel="noreferrer">View location ↗</a></span></div><a class="button button-light" href="https://katsubistro.co.nz/reservations/" target="_blank" rel="noreferrer">Book a table <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">K</span><span>Katsu<br><em>Bistro</em></span></a><p>Good food that leaves you smiling.</p><div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://katsubistro.co.nz/contact-us/" target="_blank" rel="noreferrer">Contact us ↗</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
